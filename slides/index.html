@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Fargate + GitHub Actions</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="reveal.js/dist/theme/night.css" id="theme" />
+    <style type="text/css" media="screen">
+      .slides section.has-dark-background,
+      .slides section.has-dark-background h2 {
+        color: #fff;
+      }
+
+      .slides section.has-light-background,
+      .slides section.has-light-background h2 {
+        color: #222;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- INTRODUCTION -->
+        <section>
+          <section data-background="dark">
+            <h3>Introduction to Blockchain</h3>
+
+            <body>
+              Austin Hardt
+            </body>
+          </section>
+          <section data-background="dark">
+            <p>Today's Agenda</p>
+            <ul>
+              <li>Definition and Theory</li>
+              <li>Smart Contracts</li>
+              <li>Comparisons</li>
+              <li>Applications</li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- Definition and Theory  data-background-color="rgb(21,27,84)"-->
+        <section data-background-color="dark">
+          <section data-background="">
+            <h2>Definition & Theory</h2>
+          </section>
+          <section data-background="">
+            <p>What is a blockchain?</p>
+            <br />
+            <p class="fragment" data-fragment-index="1">
+              In short, it's an <b>immutable distributed ledger</b>
+            </p>
+          </section>
+
+          <section data-background="">
+            <p>Why is it called a blockchain?</p>
+            <div style="display: inline">
+              <img
+                src="media/blockchain.gif"
+                style="clear: right; margin-left: 20px"
+              />
+
+              <p class="fragment" data-fragment-index="1">Transactional Data</p>
+              <p class="fragment" data-fragment-index="2">Hash of the block</p>
+              <p class="fragment" data-fragment-index="3">
+                Hash of the previous block
+              </p>
+            </div>
+          </section>
+          <section data-background="">
+            <p>
+              If the data in a previous block is tampered with, the hash
+              changes, and invalidates all of the following blocks
+            </p>
+            <br />
+            <p class="fragment" data-fragment-index="1">
+              However, this validation mechanism is not enough to ensure
+              security
+            </p>
+          </section>
+          <section data-background="">
+            <p>Proof-of-Work</p>
+            <br />
+            <p></p>
+          </section>
+          <section data-background="">
+            <p>Proof of Stake, etc</p>
+            <br />
+            <p></p>
+          </section>
+          <section data-background="">
+            <p>Distributed ledgers do not have a centralized authority</p>
+            <br />
+            <p>They are consensually shared accorss mulitple nodes</p>
+          </section>
+          <section data-background=""></section>
+          <section data-background=""></section>
+          <section data-auto-animate>
+            <div
+              data-id="box"
+              style="height: 50px; width: 50px; background: blue"
+            ></div>
+          </section>
+          <section data-auto-animate>
+            <div
+              data-id="box"
+              style="height: 200px; width: 50px; background: blue"
+            ></div>
+          </section>
+        </section>
+
+        <!-- Smart Contracts -->
+        <section>
+          <section data-background="dark">
+            <h2>Smart Contracts</h2>
+          </section>
+        </section>
+
+        <!-- Comparisons -->
+        <section>
+          <section data-background="dark">
+            <h2>Comparisons</h2>
+          </section>
+        </section>
+
+        <!-- Applications -->
+        <section>
+          <section data-background="dark">
+            <h2>Applications</h2>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="reveal.js/dist/reveal.js"></script>
+    <script>
+      // Full list of configuration options:
+      // https://revealjs.revealjs.com/config/
+      Reveal.initialize({
+        center: true,
+
+        transition: "linear",
+        //transitionSpeed: 'slow',
+        //backgroundTransition: 'slide'
+      });
+    </script>
+  </body>
+</html>
